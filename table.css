@@ -1,0 +1,56 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #ffdae0;
+}
+
+.maincontent {
+    padding: 20px;
+}
+
+header {
+    background-color: #FFC0CB;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+header a:hover {
+    background-color: #FF69B4;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #FFC0CB;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #FFC0CB;
+}

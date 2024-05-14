@@ -1,0 +1,70 @@
+
+body { 
+    font-family: 'Courier New', monospace; /* Change the font to Courier New */ 
+    margin: 0; 
+    padding: 0; 
+    background-color: #ffdae0; 
+} 
+ 
+header { 
+    background-color: #FFC0CB; /* Change the background color to pastel pink */ 
+    color: white; 
+    padding: 10px 0; 
+    text-align: center; 
+} 
+header a { 
+    display: inline-block; 
+    padding: 10px 20px; 
+    color: white; 
+    text-decoration: none;  
+    transition: background-color 0.3s;  
+} 
+header a:hover { 
+    background-color: #FF69B4; /* Change the hover background color to a lighter pastel pink */ 
+} 
+ 
+h1 { 
+    text-align: center; 
+    margin-top: 50px; 
+} 
+ 
+form { 
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} 
+ 
+label { 
+    display: block; 
+    margin-bottom: 10px; 
+    font-weight: bold; 
+} 
+ 
+select, input[type="number"], input[type="text"] { 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    font-size: 16px; 
+} 
+ 
+input[type="submit"] { 
+    width: 100%; 
+    padding: 10px; 
+    background-color: #FFC0CB; /* Change the button background color to pastel pink */ 
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+} 
+ 
+input[type="submit"]:hover { 
+    background-color: #FF69B4; /* Change the hover background color to a lighter pastel pink */ 
+}
